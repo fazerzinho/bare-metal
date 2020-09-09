@@ -1,0 +1,17 @@
+cargo-features = ["named-profiles"]
+[package]
+name = "bare_machine"
+version = "0.1.0"
+authors = ["fazerzinho <45016808+fazerzinho@users.noreply.github.com>"]
+edition = "2018"
+
+[profile.dev]
+panic = "abort"
+
+[profile.relese]
+panic = "abort"
+
+[dependencies]
+
+
+
