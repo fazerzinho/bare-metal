@@ -5,10 +5,10 @@ version = "0.1.0"
 authors = ["fazerzinho <45016808+fazerzinho@users.noreply.github.com>"]
 edition = "2018"
 
-[profile.dev]
+[profile.dev] # the profile used for `cargo build`
 panic = "abort"
 
-[profile.relese]
+[profile.release] # the profile used for `cargo build --release`
 panic = "abort"
 
 [dependencies]
